@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "imports": {
+    "#config/*": "./src/config/*",
+    "#controllers/*": "./src/config/*",
+    "#middleware/*": "./src/config/*",
+    "#models/*": "./src/config/*",
+    "#routes/*": "./src/config/*",
+    "#services/*": "./src/config/*",
+    "#utils/*": "./src/config/*",
+    "#validations/*": "./src/config/*"
+  },
   "scripts": {
     "dev": "node --watch src/index.js",
     "lint": "eslint .",
@@ -29,7 +39,8 @@
     "@neondatabase/serverless": "^1.0.2",
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.44.7",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "winston": "^3.18.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
