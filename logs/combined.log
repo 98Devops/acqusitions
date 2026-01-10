@@ -1,0 +1,94 @@
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-19T15:23:42.817Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:15:23:42 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-11-19T15:23:42.839Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-19T15:26:44.018Z"}
+{"level":"info","message":"::1 - - [19/Nov/2025:15:26:44 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-11-19T15:26:44.021Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T12:12:36.554Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:12:36 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-11-21T12:12:36.571Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:12:36 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-11-21T12:12:36.782Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T12:20:19.699Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:20:19 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:20:19.703Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T12:35:02.013Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:35:02 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:35:02.016Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:35:17 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:35:17.282Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:35:23 +0000] \"PUT / HTTP/1.1\" 404 139 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:35:23.388Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T12:35:30.978Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:35:30 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:35:30.979Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:38:27 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:38:27.597Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T12:38:50.063Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:38:50 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:38:50.074Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:38:54 +0000] \"GET /api HTTP/1.1\" 200 41 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:38:54.714Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:39:44 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:39:44.227Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:42:49 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:42:49.260Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:12:43:03 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T12:43:03.339Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T19:03:04.535Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:03:04 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-11-21T19:03:04.561Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T19:03:10.953Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:03:10 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:03:10.955Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:04:24 +0000] \"GET //api/auth/sign-in HTTP/1.1\" 404 156 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:04:24.780Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:04:44 +0000] \"POST //api/auth/sign-in HTTP/1.1\" 404 157 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:04:44.851Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:05:14 +0000] \"POST //api HTTP/1.1\" 404 144 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:05:14.714Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:05:21 +0000] \"GET //api HTTP/1.1\" 404 143 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:05:21.268Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T19:05:26.505Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:05:26 +0000] \"GET // HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:05:26.507Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:07:29 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 32 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:07:29.960Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:07:42 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:07:42.337Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:07:47 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 32 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:07:47.578Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:09:23 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:09:23.150Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:13:02 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:13:02.959Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:16:35 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:16:35.734Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:17:00 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:17:00.138Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:17:24 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:17:24.738Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:17:27 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:17:27.484Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:17:29 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:17:29.153Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:22:47 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:22:47.233Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:26:47 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:26:47.567Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:27:15 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:27:15.864Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:27:39 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:27:39.312Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:28:27 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:28:27.985Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:30:39 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 144 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:30:39.624Z"}
+{"level":"info","message":"User signed up successfully: taf@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T19:31:37.411Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:31:37 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:31:37.413Z"}
+{"level":"info","message":"User signed up successfully: taf@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T19:48:45.926Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:48:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:48:45.928Z"}
+{"level":"info","message":"User signed up successfully: taf@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T19:49:35.643Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:49:35 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:49:35.645Z"}
+{"level":"info","message":"User signed up successfully: taf@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T19:50:27.149Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:50:27 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:50:27.150Z"}
+{"level":"info","message":"User signed up successfully: taf@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T19:50:28.264Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:19:50:28 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T19:50:28.265Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-11-21T21:39:38.936Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:21:39:38 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2025-11-21T21:39:38.950Z"}
+{"level":"info","message":"User taf@zimflow.io created successfully","service":"acquisitions-api","timestamp":"2025-11-21T21:39:49.763Z"}
+{"level":"info","message":"User signed up successfully: taf@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T21:39:49.778Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:21:39:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 114 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T21:39:49.788Z"}
+{"level":"info","message":"User goat@zimflow.io created successfully","service":"acquisitions-api","timestamp":"2025-11-21T21:43:14.154Z"}
+{"level":"info","message":"User signed up successfully: goat@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T21:43:14.156Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:21:43:14 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 111 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T21:43:14.159Z"}
+{"level":"error","message":"Error creating user: Error: User with this email already exists","service":"acquisitions-api","timestamp":"2025-11-21T21:43:48.570Z"}
+{"level":"error","message":"Sign-up error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///C:/Users/Lenovo/acqusitions/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Lenovo/acqusitions/src/controllers/auth.controller.js:21:18)","timestamp":"2025-11-21T21:43:48.571Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:21:43:48 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 47 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T21:43:48.572Z"}
+{"level":"info","message":"User king@zimflow.io created successfully","service":"acquisitions-api","timestamp":"2025-11-21T21:44:07.789Z"}
+{"level":"info","message":"User signed up successfully: king@zimflow.io","service":"acquisitions-api","timestamp":"2025-11-21T21:44:07.792Z"}
+{"level":"info","message":"::1 - - [21/Nov/2025:21:44:07 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 111 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-21T21:44:07.793Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2025-12-04T11:43:28.325Z"}
+{"level":"info","message":"::1 - - [04/Dec/2025:11:43:28 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-12-04T11:43:28.335Z"}
+{"level":"info","message":"::1 - - [04/Dec/2025:11:48:47 +0000] \"POST / HTTP/1.1\" 404 140 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-12-04T11:48:47.260Z"}
+{"level":"error","message":"Error creating user: Error: User with this email already exists","service":"acquisitions-api","timestamp":"2025-12-04T11:50:03.214Z"}
+{"level":"error","message":"Sign-up error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///C:/Users/Lenovo/acqusitions/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Lenovo/acqusitions/src/controllers/auth.controller.js:21:18)","timestamp":"2025-12-04T11:50:03.215Z"}
+{"level":"info","message":"::1 - - [04/Dec/2025:11:50:03 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 47 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-12-04T11:50:03.218Z"}
+{"level":"error","message":"Error creating user: Error: User with this email already exists","service":"acquisitions-api","timestamp":"2025-12-04T11:50:31.573Z"}
+{"level":"error","message":"Sign-up error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///C:/Users/Lenovo/acqusitions/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Lenovo/acqusitions/src/controllers/auth.controller.js:21:18)","timestamp":"2025-12-04T11:50:31.574Z"}
+{"level":"info","message":"::1 - - [04/Dec/2025:11:50:31 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 47 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-12-04T11:50:31.575Z"}
+{"level":"info","message":"User tafara@zimflow.io created successfully","service":"acquisitions-api","timestamp":"2025-12-04T11:50:53.421Z"}
+{"level":"info","message":"User signed up successfully: tafara@zimflow.io","service":"acquisitions-api","timestamp":"2025-12-04T11:50:53.425Z"}
+{"level":"info","message":"::1 - - [04/Dec/2025:11:50:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-12-04T11:50:53.427Z"}
+{"level":"error","message":"Error creating user: Error: User with this email already exists","service":"acquisitions-api","timestamp":"2025-12-04T13:31:42.860Z"}
+{"level":"error","message":"Sign-up error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///C:/Users/Lenovo/acqusitions/src/services/auth.service.js:25:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Lenovo/acqusitions/src/controllers/auth.controller.js:21:18)","timestamp":"2025-12-04T13:31:42.867Z"}
+{"level":"info","message":"::1 - - [04/Dec/2025:13:31:42 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 47 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-12-04T13:31:42.873Z"}
+{"level":"info","message":"User tafdzwa@zimflow.io created successfully","service":"acquisitions-api","timestamp":"2025-12-04T13:45:04.070Z"}
+{"level":"info","message":"User signed up successfully: tafdzwa@zimflow.io","service":"acquisitions-api","timestamp":"2025-12-04T13:45:04.075Z"}
+{"level":"info","message":"::1 - - [04/Dec/2025:13:45:04 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 114 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-12-04T13:45:04.076Z"}
+{"level":"info","message":"User signed in successfully: tafdzwa@zimflow.io","service":"acquisitions-api","timestamp":"2026-01-10T19:21:56.448Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:19:21:56 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-01-10T19:21:56.463Z"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2026-01-10T19:23:01.951Z"}
+{"level":"info","message":"::1 - - [10/Jan/2026:19:23:01 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 37 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2026-01-10T19:23:01.955Z"}
