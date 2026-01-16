@@ -38,3 +38,6 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 export default logger;
+
+// Also provide a named export for callers using named imports
+export { logger };
