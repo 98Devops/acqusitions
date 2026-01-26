@@ -1,0 +1,43 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Testing
+coverage
+tests
+*.test.js
+jest.config.*
+
+# Development
+.git
+.gitignore
+README.md
+.env.local
+.env.development
+
+# Build artifacts
+dist
+build
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+*.log
+
+# CI/CD
+.github
+.dockerignore
+Dockerfile*
+
+# Documentation
+docs
+*.md

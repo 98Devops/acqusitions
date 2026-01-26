@@ -43,4 +43,11 @@ app.get('/api', (req, res) => {
 app.use('/api/auth', authRoutes); //api/auth/sign-in
 
 app.use('/api/users', userRoutes);
+
+// 404 handler for unmatched routes
+app.use((req, res) => {
+  res.status(404).json({
+    message: 'Route not found',
+  });
+});    
 export default app;
