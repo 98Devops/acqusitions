@@ -5,7 +5,10 @@ import {
   updateUser,
   deleteUser,
 } from '#controllers/users.controller.js';
-import { authenticationToken, requireRole } from '../middleware/auth.middleware.js';
+import {
+  authenticationToken,
+  requireRole,
+} from '../middleware/auth.middleware.js';
 
 const router = express.Router();
 
@@ -17,4 +20,4 @@ router.put('/:id', authenticationToken, updateUser); // PUT /api/users/:id (self
 
 router.delete('/:id', authenticationToken, requireRole('admin'), deleteUser); // DELETE /api/users/:id (admin only, cannot delete self)
 
-export default router; 
+export default router;

@@ -71,7 +71,12 @@ export const authenticateUser = async (email, password) => {
       throw new Error('Invalid email or password');
     }
 
-    const { password: _pw, updated_at: _ua, ...safeUser } = found;
+    // Remove sensitive fields from user object
+    const safeUser = Object.fromEntries(
+      Object.entries(found).filter(
+        ([key]) => !['password', 'updated_at'].includes(key)
+      )
+    );
     return safeUser;
   } catch (e) {
     if (e.message !== 'Invalid email or password') {

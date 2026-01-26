@@ -4,8 +4,11 @@ import { cookies } from '../utils/cookies.js';
 
 export const authenticationToken = (req, res, next) => {
   try {
-    const token = cookies.get(req, 'token') || (req.headers.authorization && req.headers.authorization.split(' ')[1]);
-    if (!token) return res.status(401).json({ message: 'Authentication token missing' });
+    const token =
+      cookies.get(req, 'token') ||
+      (req.headers.authorization && req.headers.authorization.split(' ')[1]);
+    if (!token)
+      return res.status(401).json({ message: 'Authentication token missing' });
 
     const payload = jwttoken.verify(token);
     req.user = {
@@ -21,13 +24,14 @@ export const authenticationToken = (req, res, next) => {
   }
 };
 
-export const requireRole = (allowedRole) => (req, res, next) => {
+export const requireRole = allowedRole => (req, res, next) => {
   try {
     const role = req.user?.role;
     if (!role) return res.status(401).json({ message: 'Unauthorized' });
 
     if (Array.isArray(allowedRole)) {
-      if (!allowedRole.includes(role)) return res.status(403).json({ message: 'Forbidden' });
+      if (!allowedRole.includes(role))
+        return res.status(403).json({ message: 'Forbidden' });
     } else if (role !== allowedRole) {
       return res.status(403).json({ message: 'Forbidden' });
     }

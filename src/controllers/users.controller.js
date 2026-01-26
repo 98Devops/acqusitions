@@ -5,7 +5,10 @@ import {
   deleteUser as deleteUserService,
 } from '../routes/users.service.js';
 import logger from '../config/logger.js';
-import { updateUserSchema, userIdSchema } from '../validations/users.validation.js';
+import {
+  updateUserSchema,
+  userIdSchema,
+} from '../validations/users.validation.js';
 
 export const fetchALLUsers = async (_req, res, next) => {
   try {
@@ -64,7 +67,9 @@ export const updateUser = async (req, res, next) => {
 
     // Self-update protection: non-admins can only update their own account
     if (requester.role !== 'admin' && requester.id !== id) {
-      return res.status(403).json({ message: 'You can only update your own account' });
+      return res
+        .status(403)
+        .json({ message: 'You can only update your own account' });
     }
 
     const updated = await updateUserService(id, updates);
@@ -88,7 +93,9 @@ export const deleteUser = async (req, res, next) => {
     }
 
     if (requester.id === id) {
-      return res.status(403).json({ message: 'Admin cannot delete their own account' });
+      return res
+        .status(403)
+        .json({ message: 'Admin cannot delete their own account' });
     }
 
     const deleted = await deleteUserService(id);

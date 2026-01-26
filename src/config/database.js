@@ -15,7 +15,9 @@ if (process.env.NODE_ENV === 'development') {
     cfg.useSecureWebSocket = false;
     cfg.poolQueryViaFetch = true;
   } else {
-    console.warn('neon serverless config object not found; skipping neon-local overrides');
+    console.warn(
+      'neon serverless config object not found; skipping neon-local overrides'
+    );
   }
 }
 

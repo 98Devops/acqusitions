@@ -3,6 +3,7 @@
 Quick guide to run the app locally with Neon Local (development) and how to deploy with Neon Cloud (production).
 
 Prerequisites:
+
 - Docker and Docker Compose installed
 - Node.js (for local development outside containers)
 
@@ -39,7 +40,8 @@ docker compose -f docker-compose.prod.yml up --build -d
 ```
 
 Notes:
+
 - The production compose file does not run Neon Local; it expects `DATABASE_URL` to point to Neon Cloud.
 - Secrets must be provided via environment variables; do not commit real secrets.
 - If you need persistent Neon Local branches per git branch, keep the `.neon_local` volume mapping.
-A production-ready authentication microservice following clean architecture principles with Express 5, Drizzle ORM, and Neon serverless PostgreSQL. It implements secure authentication patterns (bcrypt + JWT), input validation (Zod), structured logging (Winston), and follows modern JavaScript practices with ES modules and subpath imports. The codebase is well-organized into routes → controllers → services → models layers, making it maintainable and testable, though it currently needs completion of sign-in/sign-out flows and authentication middleware for protected routes.
+  A production-ready authentication microservice following clean architecture principles with Express 5, Drizzle ORM, and Neon serverless PostgreSQL. It implements secure authentication patterns (bcrypt + JWT), input validation (Zod), structured logging (Winston), and follows modern JavaScript practices with ES modules and subpath imports. The codebase is well-organized into routes → controllers → services → models layers, making it maintainable and testable, though it currently needs completion of sign-in/sign-out flows and authentication middleware for protected routes.

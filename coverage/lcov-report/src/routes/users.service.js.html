@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">17.7% </span>
+                <span class="strong">15.74% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>17/96</span>
+                <span class='fraction'>17/108</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">17.7% </span>
+                <span class="strong">15.74% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>17/96</span>
+                <span class='fraction'>17/108</span>
             </div>
         
             
@@ -159,26 +159,22 @@
 <a name='L94'></a><a href='#L94'>94</a>
 <a name='L95'></a><a href='#L95'>95</a>
 <a name='L96'></a><a href='#L96'>96</a>
-<a name='L97'></a><a href='#L97'>97</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -200,6 +196,34 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -263,30 +287,35 @@ import { hashPassword } from '../services/auth.service.js';
 &nbsp;
 export const getALLUsers = <span class="fstat-no" title="function not covered" >async () =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >  try {</span>
-<span class="cstat-no" title="statement not covered" >    return await db.select({</span>
-<span class="cstat-no" title="statement not covered" >      id: users.id,</span>
-<span class="cstat-no" title="statement not covered" >      email: users.email,</span>
-<span class="cstat-no" title="statement not covered" >      name: users.name,</span>
-<span class="cstat-no" title="statement not covered" >      role: users.role,</span>
-<span class="cstat-no" title="statement not covered" >      created_at: users.created_at,</span>
-<span class="cstat-no" title="statement not covered" >      updated_at: users.updated_at,</span>
-<span class="cstat-no" title="statement not covered" >    }).from(users);</span>
+<span class="cstat-no" title="statement not covered" >    return await db</span>
+<span class="cstat-no" title="statement not covered" >      .select({</span>
+<span class="cstat-no" title="statement not covered" >        id: users.id,</span>
+<span class="cstat-no" title="statement not covered" >        email: users.email,</span>
+<span class="cstat-no" title="statement not covered" >        name: users.name,</span>
+<span class="cstat-no" title="statement not covered" >        role: users.role,</span>
+<span class="cstat-no" title="statement not covered" >        created_at: users.created_at,</span>
+<span class="cstat-no" title="statement not covered" >        updated_at: users.updated_at,</span>
+<span class="cstat-no" title="statement not covered" >      })</span>
+<span class="cstat-no" title="statement not covered" >      .from(users);</span>
 <span class="cstat-no" title="statement not covered" >  } catch (e) {</span>
 <span class="cstat-no" title="statement not covered" >    logger.error('Get all users error', e);</span>
 <span class="cstat-no" title="statement not covered" >    throw e;</span>
 <span class="cstat-no" title="statement not covered" >  }</span>
 };
 &nbsp;
-export const getUserById = <span class="fstat-no" title="function not covered" >async (id) =&gt; {</span>
+export const getUserById = <span class="fstat-no" title="function not covered" >async id =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >  try {</span>
-<span class="cstat-no" title="statement not covered" >    const result = await db.select({</span>
-<span class="cstat-no" title="statement not covered" >      id: users.id,</span>
-<span class="cstat-no" title="statement not covered" >      email: users.email,</span>
-<span class="cstat-no" title="statement not covered" >      name: users.name,</span>
-<span class="cstat-no" title="statement not covered" >      role: users.role,</span>
-<span class="cstat-no" title="statement not covered" >      created_at: users.created_at,</span>
-<span class="cstat-no" title="statement not covered" >      updated_at: users.updated_at,</span>
-<span class="cstat-no" title="statement not covered" >    }).from(users).where(eq(users.id, id));</span>
+<span class="cstat-no" title="statement not covered" >    const result = await db</span>
+<span class="cstat-no" title="statement not covered" >      .select({</span>
+<span class="cstat-no" title="statement not covered" >        id: users.id,</span>
+<span class="cstat-no" title="statement not covered" >        email: users.email,</span>
+<span class="cstat-no" title="statement not covered" >        name: users.name,</span>
+<span class="cstat-no" title="statement not covered" >        role: users.role,</span>
+<span class="cstat-no" title="statement not covered" >        created_at: users.created_at,</span>
+<span class="cstat-no" title="statement not covered" >        updated_at: users.updated_at,</span>
+<span class="cstat-no" title="statement not covered" >      })</span>
+<span class="cstat-no" title="statement not covered" >      .from(users)</span>
+<span class="cstat-no" title="statement not covered" >      .where(eq(users.id, id));</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    return result?.[0] ?? null;</span>
 <span class="cstat-no" title="statement not covered" >  } catch (e) {</span>
@@ -311,7 +340,11 @@ export const updateUser = <span class="fstat-no" title="function not covered" >a
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    // If email is being changed, ensure uniqueness</span>
 <span class="cstat-no" title="statement not covered" >    if (allowed.email &amp;&amp; allowed.email !== existing.email) {</span>
-<span class="cstat-no" title="statement not covered" >      const [dupe] = await db.select().from(users).where(eq(users.email, allowed.email)).limit(1);</span>
+<span class="cstat-no" title="statement not covered" >      const [dupe] = await db</span>
+<span class="cstat-no" title="statement not covered" >        .select()</span>
+<span class="cstat-no" title="statement not covered" >        .from(users)</span>
+<span class="cstat-no" title="statement not covered" >        .where(eq(users.email, allowed.email))</span>
+<span class="cstat-no" title="statement not covered" >        .limit(1);</span>
 <span class="cstat-no" title="statement not covered" >      if (dupe) {</span>
 <span class="cstat-no" title="statement not covered" >        const err = new Error('Email already in use');</span>
 <span class="cstat-no" title="statement not covered" >        err.status = 400;</span>
@@ -326,7 +359,10 @@ export const updateUser = <span class="fstat-no" title="function not covered" >a
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    if (Object.keys(allowed).length === 0) return existing;</span>
 <span class="cstat-no" title="statement not covered" ></span>
-<span class="cstat-no" title="statement not covered" >    await db.update(users).set({ ...allowed, updated_at: new Date() }).where(eq(users.id, id));</span>
+<span class="cstat-no" title="statement not covered" >    await db</span>
+<span class="cstat-no" title="statement not covered" >      .update(users)</span>
+<span class="cstat-no" title="statement not covered" >      .set({ ...allowed, updated_at: new Date() })</span>
+<span class="cstat-no" title="statement not covered" >      .where(eq(users.id, id));</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    return await getUserById(id);</span>
 <span class="cstat-no" title="statement not covered" >  } catch (e) {</span>
@@ -335,7 +371,7 @@ export const updateUser = <span class="fstat-no" title="function not covered" >a
 <span class="cstat-no" title="statement not covered" >  }</span>
 };
 &nbsp;
-export const deleteUser = <span class="fstat-no" title="function not covered" >async (id) =&gt; {</span>
+export const deleteUser = <span class="fstat-no" title="function not covered" >async id =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >  try {</span>
 <span class="cstat-no" title="statement not covered" >    const existing = await getUserById(id);</span>
 <span class="cstat-no" title="statement not covered" >    if (!existing) {</span>
@@ -358,7 +394,7 @@ export const deleteUser = <span class="fstat-no" title="function not covered" >a
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-01-22T19:50:46.168Z
+                at 2026-01-26T14:37:13.494Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

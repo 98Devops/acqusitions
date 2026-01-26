@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">26.82% </span>
+                <span class="strong">24.44% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>11/41</span>
+                <span class='fraction'>11/45</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">26.82% </span>
+                <span class="strong">24.44% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>11/41</span>
+                <span class='fraction'>11/45</span>
             </div>
         
             
@@ -104,7 +104,11 @@
 <a name='L39'></a><a href='#L39'>39</a>
 <a name='L40'></a><a href='#L40'>40</a>
 <a name='L41'></a><a href='#L41'>41</a>
-<a name='L42'></a><a href='#L42'>42</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -125,9 +129,13 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -151,8 +159,11 @@ import { cookies } from '../utils/cookies.js';
 &nbsp;
 export const authenticationToken = <span class="fstat-no" title="function not covered" >(req, res, next) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >  try {</span>
-<span class="cstat-no" title="statement not covered" >    const token = cookies.get(req, 'token') || (req.headers.authorization &amp;&amp; req.headers.authorization.split(' ')[1]);</span>
-<span class="cstat-no" title="statement not covered" >    if (!token) return res.status(401).json({ message: 'Authentication token missing' });</span>
+<span class="cstat-no" title="statement not covered" >    const token =</span>
+<span class="cstat-no" title="statement not covered" >      cookies.get(req, 'token') ||</span>
+<span class="cstat-no" title="statement not covered" >      (req.headers.authorization &amp;&amp; req.headers.authorization.split(' ')[1]);</span>
+<span class="cstat-no" title="statement not covered" >    if (!token)</span>
+<span class="cstat-no" title="statement not covered" >      return res.status(401).json({ message: 'Authentication token missing' });</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    const payload = jwttoken.verify(token);</span>
 <span class="cstat-no" title="statement not covered" >    req.user = {</span>
@@ -168,13 +179,14 @@ export const authenticationToken = <span class="fstat-no" title="function not co
 <span class="cstat-no" title="statement not covered" >  }</span>
 };
 &nbsp;
-export const requireRole = (allowedRole) =&gt; (req, res, next) =&gt; {
+export const requireRole = allowedRole =&gt; (req, res, next) =&gt; {
 <span class="cstat-no" title="statement not covered" >  try {</span>
 <span class="cstat-no" title="statement not covered" >    const role = req.user?.role;</span>
 <span class="cstat-no" title="statement not covered" >    if (!role) return res.status(401).json({ message: 'Unauthorized' });</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >    if (Array.isArray(allowedRole)) {</span>
-<span class="cstat-no" title="statement not covered" >      if (!allowedRole.includes(role)) return res.status(403).json({ message: 'Forbidden' });</span>
+<span class="cstat-no" title="statement not covered" >      if (!allowedRole.includes(role))</span>
+<span class="cstat-no" title="statement not covered" >        return res.status(403).json({ message: 'Forbidden' });</span>
 <span class="cstat-no" title="statement not covered" >    } else if (role !== allowedRole) {</span>
 <span class="cstat-no" title="statement not covered" >      return res.status(403).json({ message: 'Forbidden' });</span>
 <span class="cstat-no" title="statement not covered" >    }</span>
@@ -193,7 +205,7 @@ export default { authenticationToken, requireRole };
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2026-01-22T19:50:46.168Z
+                at 2026-01-26T14:37:13.494Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

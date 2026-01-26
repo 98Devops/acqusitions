@@ -6,7 +6,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from './routes/auth.routes.js';
 import userRoutes from './routes/users.routes.js';
-import { securityMiddleware } from './middleware/security.middleware.js'; 
+import { securityMiddleware } from './middleware/security.middleware.js';
 const app = express();
 
 app.use(helmet());
@@ -21,7 +21,7 @@ app.use(
   })
 );
 
-app.use(securityMiddleware); 
+app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
   logger.info('Hello from Acquisitions API!');
@@ -49,5 +49,5 @@ app.use((req, res) => {
   res.status(404).json({
     message: 'Route not found',
   });
-});    
+});
 export default app;

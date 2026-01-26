@@ -5,14 +5,18 @@ This directory contains three GitHub Actions workflows for automated CI/CD pipel
 ## 🔍 Workflows Overview
 
 ### 1. `lint-and-format.yml` - Code Quality
+
 **Triggers:** Push/PR to `main` and `staging` branches
+
 - Runs ESLint to check code quality
 - Validates Prettier formatting
 - Provides clear error messages with fix suggestions
 - Fails fast if issues are found
 
 ### 2. `tests.yml` - Testing & Coverage
+
 **Triggers:** Push/PR to `main` and `staging` branches
+
 - Sets up PostgreSQL test database
 - Runs Jest tests with coverage
 - Uploads coverage reports as artifacts (30-day retention)
@@ -20,7 +24,9 @@ This directory contains three GitHub Actions workflows for automated CI/CD pipel
 - Provides annotations for failures
 
 ### 3. `docker-build-and-push.yml` - Container Deployment
+
 **Triggers:** Push to `main` branch or manual dispatch
+
 - Builds multi-platform Docker images (amd64/arm64)
 - Pushes to Docker Hub with multiple tags
 - Uses build caching for efficiency
@@ -38,12 +44,14 @@ DOCKER_PASSWORD=your-dockerhub-password-or-token
 ## 📋 Workflow Features
 
 ### Lint and Format Workflow
+
 - ✅ Node.js 20.x with npm caching
 - ✅ ESLint with auto-fix suggestions
 - ✅ Prettier formatting validation
 - ✅ Clear error annotations
 
 ### Tests Workflow
+
 - ✅ PostgreSQL service container
 - ✅ Environment variables for testing
 - ✅ Coverage report generation
@@ -52,6 +60,7 @@ DOCKER_PASSWORD=your-dockerhub-password-or-token
 - ✅ Test failure annotations
 
 ### Docker Workflow
+
 - ✅ Multi-platform builds (linux/amd64, linux/arm64)
 - ✅ Docker Buildx setup
 - ✅ Metadata extraction with multiple tags
@@ -62,6 +71,7 @@ DOCKER_PASSWORD=your-dockerhub-password-or-token
 ## 🏷️ Docker Tags Generated
 
 The Docker workflow creates these tags:
+
 - `latest` (main branch only)
 - `main-<commit-sha>` (branch + commit)
 - `prod-YYYYMMDD-HHmmss` (timestamped production)

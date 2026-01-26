@@ -7,14 +7,14 @@
 const config = {
   clearMocks: true,
   collectCoverage: true,
-  coverageDirectory: "coverage",
-  coverageProvider: "v8",
-  testEnvironment: "node",
-  
+  coverageDirectory: 'coverage',
+  coverageProvider: 'v8',
+  testEnvironment: 'node',
+
   // Enable ES modules support
   preset: null,
   transform: {},
-  
+
   // Module name mapping for path aliases
   moduleNameMapper: {
     '^#src/(.*)$': '<rootDir>/src/$1',
@@ -25,14 +25,11 @@ const config = {
     '^#routes/(.*)$': '<rootDir>/src/routes/$1',
     '^#services/(.*)$': '<rootDir>/src/services/$1',
     '^#utils/(.*)$': '<rootDir>/src/utils/$1',
-    '^#validations/(.*)$': '<rootDir>/src/validations/$1'
+    '^#validations/(.*)$': '<rootDir>/src/validations/$1',
   },
-  
+
   // Test file patterns
-  testMatch: [
-    "**/tests/**/*.js",
-    "**/?(*.)+(spec|test).js"
-  ]
+  testMatch: ['**/tests/**/*.js', '**/?(*.)+(spec|test).js'],
 };
 
 export default config;
