@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/devops263/kubernetes-api
+          images: devops263/kubernetes-api
           tags: |
             type=ref,event=branch
             type=sha,prefix={{branch}}-
@@ -57,7 +57,7 @@ jobs:
           echo "Successfully built and pushed Docker image to Docker Hub!" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Image Details" >> $GITHUB_STEP_SUMMARY
-          echo "- **Repository:** ${{ secrets.DOCKER_USERNAME }}/acquisitions-api" >> $GITHUB_STEP_SUMMARY
+          echo "- **Repository:** devops263/kubernetes-api" >> $GITHUB_STEP_SUMMARY
           echo "- **Platforms:** linux/amd64, linux/arm64" >> $GITHUB_STEP_SUMMARY
           echo "- **Build ID:** ${{ steps.build.outputs.digest }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
@@ -68,7 +68,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Pull Command" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`bash" >> $GITHUB_STEP_SUMMARY
-          echo "docker pull ${{ secrets.DOCKER_USERNAME }}/acquisitions-api:latest" >> $GITHUB_STEP_SUMMARY
+          echo "docker pull devops263/kubernetes-api:latest" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
 
       - name: Image scan summary
