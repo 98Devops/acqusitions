@@ -1,4 +1,4 @@
- ⚙️Tech Stack:
+⚙️Tech Stack:
  
 Arcjet is a developer-first security layer that enables you to protect your applications with minimal code. It offers features like bot protection, rate limiting, email validation, and defense against common attacks. Arcjet's SDK integrates seamlessly into your application, providing real-time security decisions without the need for additional infrastructure.
 
@@ -53,7 +53,7 @@ Node.js
 npm (Node Package Manager)
 Cloning the Repository
 
-git clone https://github.com/adrianhajdin/acquisitions.git
+git clone https://github.com/98Devops/acqusitions.git
 cd acquisitions
 Installation
 
