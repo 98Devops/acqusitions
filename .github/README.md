@@ -45,6 +45,6 @@ Zod is a TypeScript-first schema validation library that ensures runtime type sa
 
 - User Authentication & Authorization: JWT-based authentication supporting signup, signin, and signout workflows.
 
-👉 User Management: CRUD operations for user accounts, enabling easy administration and management.
+ User Management: CRUD operations for user accounts, enabling easy administration and management.
 
 And many more, including code architecture and reusability.
