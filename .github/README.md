@@ -1,99 +1,49 @@
-# GitHub Actions CI/CD Workflows
+⚙️ Tech Stack
+Arcjet is a developer-first security layer that enables you to protect your applications with minimal code. It offers features like bot protection, rate limiting, email validation, and defense against common attacks. Arcjet's SDK integrates seamlessly into your application, providing real-time security decisions without the need for additional infrastructure.
 
-This directory contains three GitHub Actions workflows for automated CI/CD pipeline:
+Docker is a leading containerization platform that allows you to package applications along with all their dependencies into portable, lightweight containers. This ensures consistent behavior across different environments, simplifies deployment, and makes scaling applications more efficient.
 
-## 🔍 Workflows Overview
+Kubernetes is an open-source orchestration system designed to automate the deployment, scaling, and management of containerized applications. It handles tasks like load balancing, self-healing, and rolling updates, making it essential for running applications reliably at scale.
 
-### 1. `lint-and-format.yml` - Code Quality
+Warp is a modern terminal built in Rust, optimized for developer productivity. It offers features like AI-assisted commands, easy collaboration, command history search, and a faster, more intuitive interface compared to traditional terminals.
 
-**Triggers:** Push/PR to `main` and `staging` branches
+Node.js is a fast, event-driven JavaScript runtime built on Chrome’s V8 engine. It enables developers to build scalable, high-performance server-side applications and APIs using JavaScript on both the client and server side.
 
-- Runs ESLint to check code quality
-- Validates Prettier formatting
-- Provides clear error messages with fix suggestions
-- Fails fast if issues are found
+Express.js is a minimal and flexible Node.js web application framework. It provides robust features for building APIs and server-side applications, including routing, middleware support, and simplified request/response handling.
 
-### 2. `tests.yml` - Testing & Coverage
+Neon Postgres is a fully managed, serverless Postgres database designed for modern cloud applications. It offers autoscaling, branching for development workflows, and simplifies database management without compromising performance.
 
-**Triggers:** Push/PR to `main` and `staging` branches
+Drizzle ORM is a TypeScript-first, lightweight ORM for SQL databases. It provides type safety, schema migrations, and an intuitive API for building reliable and maintainable database queries.
 
-- Sets up PostgreSQL test database
-- Runs Jest tests with coverage
-- Uploads coverage reports as artifacts (30-day retention)
-- Generates detailed test summaries
-- Provides annotations for failures
+Zod is a TypeScript-first schema validation library that ensures runtime type safety. It helps developers validate data structures, enforce strict type checks, and catch errors early in the development process.
 
-### 3. `docker-build-and-push.yml` - Container Deployment
+ API Features:
+- Absolute Imports: Clean import paths using # prefix aliases for more organized and readable code.
 
-**Triggers:** Push to `main` branch or manual dispatch
+- Business Listings: Create, update, delete, and browse business listings efficiently.
 
-- Builds multi-platform Docker images (amd64/arm64)
-- Pushes to Docker Hub with multiple tags
-- Uses build caching for efficiency
-- Generates deployment summaries
+- Database Integration: Integrate PostgreSQL with Drizzle ORM, including migrations for schema management.
 
-## 🔧 Required Secrets
+- Deal Management: Create deals on listings, accept or reject offers, and track deal status.
 
-Add these secrets to your GitHub repository settings:
+- Docker Support: Full containerization with development and production environments for consistent deployment.
 
-```
-DOCKER_USERNAME=your-dockerhub-username
-DOCKER_PASSWORD=your-dockerhub-password-or-token
-```
+- ESLint + Prettier: Enforce code linting and formatting rules for cleaner, consistent code.
 
-## 📋 Workflow Features
+- Health Monitoring: Endpoint to check system health and monitor overall application status.
 
-### Lint and Format Workflow
+- Hot Reload: Development server automatically restarts on file changes for faster iteration.
 
-- ✅ Node.js 20.x with npm caching
-- ✅ ESLint with auto-fix suggestions
-- ✅ Prettier formatting validation
-- ✅ Clear error annotations
+- Jest Testing: Framework for unit and integration testing with SuperTest for HTTP endpoints.
 
-### Tests Workflow
+- Request Validation: Validate all API inputs using Zod schemas to ensure data integrity.
 
-- ✅ PostgreSQL service container
-- ✅ Environment variables for testing
-- ✅ Coverage report generation
-- ✅ Artifact uploads
-- ✅ GitHub step summaries
-- ✅ Test failure annotations
+- Role-Based Access Control: Implement admin and user roles with permission middleware for secure operations.
 
-### Docker Workflow
+- Structured Logging: Winston-based logging throughout the application for better monitoring and debugging.
 
-- ✅ Multi-platform builds (linux/amd64, linux/arm64)
-- ✅ Docker Buildx setup
-- ✅ Metadata extraction with multiple tags
-- ✅ Build caching (GitHub Actions cache)
-- ✅ Production-optimized Dockerfile
-- ✅ Security best practices
+- User Authentication & Authorization: JWT-based authentication supporting signup, signin, and signout workflows.
 
-## 🏷️ Docker Tags Generated
+👉 User Management: CRUD operations for user accounts, enabling easy administration and management.
 
-The Docker workflow creates these tags:
-
-- `latest` (main branch only)
-- `main-<commit-sha>` (branch + commit)
-- `prod-YYYYMMDD-HHmmss` (timestamped production)
-
-## 🚀 Usage
-
-1. **Development:** Push to feature branches triggers lint/test workflows
-2. **Staging:** Push/PR to `staging` triggers all quality checks
-3. **Production:** Push to `main` triggers full pipeline including Docker build
-4. **Manual Deploy:** Use workflow_dispatch to manually trigger Docker builds
-
-## 📊 Monitoring
-
-- Check workflow status in the Actions tab
-- Review coverage reports in workflow artifacts
-- Monitor Docker image builds and tags
-- Use GitHub step summaries for quick status overview
-
-## 🔒 Security Features
-
-- Non-root Docker user
-- Multi-stage builds for minimal attack surface
-- Production-only dependencies in final image
-- Health checks included
-- Secrets properly managed
+And many more, including code architecture and reusability.
