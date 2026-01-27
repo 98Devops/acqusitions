@@ -41,7 +41,45 @@ Zod is a TypeScript-first schema validation library that ensures runtime type sa
 
 - Role-Based Access Control: Implement admin and user roles with permission middleware for secure operations.
 
-- Structured Logging: Winston-based logging throughout the application for better monitoring and debugging.
+- Structured Logging: Winston-based logging throughout the application for better monitoring and debugging.                                                                                                           Quick Start
+Follow these steps to set up the project locally on your machine.
+
+Prerequisites
+
+Make sure you have the following installed on your machine:
+
+Git
+Node.js
+npm (Node Package Manager)
+Cloning the Repository
+
+git clone https://github.com/adrianhajdin/acquisitions.git
+cd acquisitions
+Installation
+
+Install the project dependencies using npm:
+
+npm install
+Set Up Environment Variables
+
+Create a new file named .env in the root of your project and add the following content:
+
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+LOG_LEVEL=info
+
+# Database Configuration
+DATABASE_URL=
+
+# Arcjet
+ARCJET_KEY=
+Replace the placeholder values with your real credentials. You can get these by signing up at: Arcjet, Neon.
+
+Running the Project
+
+npm run dev
+Open http://localhost:3000 in your browser to view the project.
 
 - User Authentication & Authorization: JWT-based authentication supporting signup, signin, and signout workflows.
 
