@@ -1,3 +1,4 @@
+assets/api-banner.png
 ⚙️Tech Stack:
 
 Arcjet is a developer-first security layer that enables you to protect your applications with minimal code. It offers features like bot protection, rate limiting, email validation, and defense against common attacks. Arcjet's SDK integrates seamlessly into your application, providing real-time security decisions without the need for additional infrastructure.
