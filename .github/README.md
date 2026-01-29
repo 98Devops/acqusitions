@@ -1,3 +1,9 @@
+![API Banner](../assets/api-banner.png)
+
+# GitHub Actions CI/CD Workflows
+
+This directory contains three GitHub Actions workflows for automated CI/CD pipeline:
+
 assets/api-banner.png
 ⚙️Tech Stack:
 
