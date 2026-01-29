@@ -1,3 +1,5 @@
+![API Banner](assets/api-banner.png)
+
 # acquisitions — Docker + Neon Local setup
 
 Quick guide to run the app locally with Neon Local (development) and how to deploy with Neon Cloud (production).
